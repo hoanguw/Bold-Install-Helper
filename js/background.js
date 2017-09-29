@@ -2,7 +2,7 @@
 var url, customer_lookup, theme_editor_buttons, recurring_orders_install, email_recovery_buttons, customer_account_highlight, collaborator_account_checkboxes, bold_file_buttons, collaborator_account_notes;
 
 chrome.runtime.onMessage.addListener(
-function(request, sender, sendResponset) {
+function(request, sender, sendResponse) {
   if (request.command == "geturl")
     sendResponse({url: sender.tab.url + ""});
   else if (request.command == "init")
