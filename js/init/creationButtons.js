@@ -2,7 +2,7 @@ $(document).ready(function() {
   //createButtons();
 });
 
-function createButtons() {
+function createButtonstt() {
   bhCssFile = $('.bhCssFile');
   if (bhCssFile.length === 0)
     {
